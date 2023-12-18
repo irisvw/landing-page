@@ -6,13 +6,21 @@ body {
 
 }
 
-header, footer, .hero {
+header,
+footer,
+.hero {
     background-color: #1F2937;
     color: #F9FAF8;
 }
 
-nav, .herocontent, .quote, .calltoaction {
-    margin: 0px 400px;
+@media only screen and (min-width: 1000px) {
+
+    nav,
+    .herocontent,
+    .quote,
+    .calltoaction {
+        margin: 0px 400px;
+    }
 }
 
 button {
@@ -67,7 +75,8 @@ nav header {
 
 .herotext h1 {
     font-size: 48px;
-    margin: 5px;    margin-top: 0px;
+    margin: 5px;
+    margin-top: 0px;
 }
 
 /* Information */
@@ -130,7 +139,7 @@ nav header {
     color: white;
 
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -150,5 +159,3 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
-
