@@ -6,28 +6,26 @@ body {
 
 }
 
-.main {
+/* .main {
     display: flex;
     flex: 1;
     flex-direction: column;
-    
-}
+} */
 
 header, footer, .hero {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0px 200px;
 }
 
-header, .hero, .information, .quote, .calltoaction, footer {
-    padding: 0px 400px;
+nav, .herocontent, .quote, .calltoaction {
+    margin: 0px 400px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding: 50px;
 }
 
 nav ul {
@@ -38,14 +36,22 @@ nav ul {
     padding: 0px;
 }
 
-.quote {
+.quotecontainer {
     background-color: #E5E7EB;
-    font-size: 36px;
-    font-weight: light;
+    display: flex;
 }
 
-.hero {
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    padding: 100px;
+    color: #1f2937
+}
+
+.herocontent {
     display: flex;
+    gap: 50px;
+    padding: 50px;
 }
 
 .hero img {
@@ -74,9 +80,14 @@ nav ul {
 
 .calltoaction {
     background-color: #3882F6;
-    padding: 100px;
-    margin: 100px;
+    padding: 50px;
     border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
 }
 
 button {
@@ -89,4 +100,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.information {
+    padding: 50px;
+    text-align: center;
 }
