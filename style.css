@@ -1,16 +1,10 @@
 body {
-    font-family: roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
 
 }
-
-/* .main {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-} */
 
 header, footer, .hero {
     background-color: #1F2937;
@@ -43,7 +37,7 @@ nav ul {
 
 .quote {
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 100;
     padding: 100px;
     color: #1f2937
 }
@@ -80,14 +74,14 @@ nav ul {
 
 .calltoaction {
     background-color: #3882F6;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding: 50px;
-    border-radius: 20px;
+    border-radius: 10px;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    
 }
 
 button {
@@ -97,6 +91,7 @@ button {
 
 footer {
     padding: 50px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
