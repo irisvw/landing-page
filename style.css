@@ -15,6 +15,16 @@ nav, .herocontent, .quote, .calltoaction {
     margin: 0px 400px;
 }
 
+button {
+    background-color: #3882F6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Nav */
 nav {
     display: flex;
     justify-content: space-between;
@@ -30,18 +40,12 @@ nav ul {
     padding: 0px;
 }
 
-.quotecontainer {
-    background-color: #E5E7EB;
-    display: flex;
+nav header {
+    font-weight: bold;
+    font-size: 24px;
 }
 
-.quote {
-    font-size: 36px;
-    font-weight: 100;
-    padding: 100px;
-    color: #1f2937
-}
-
+/* Hero */
 .herocontent {
     display: flex;
     gap: 50px;
@@ -52,6 +56,31 @@ nav ul {
     height: 300px;
     width: auto;
 }
+
+.hero button {
+    border: none;
+}
+
+.herotext {
+    font-size: 18px;
+}
+
+.herotext h1 {
+    font-size: 48px;
+    margin: 5px;    margin-top: 0px;
+}
+
+/* Information */
+.information {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.information h2 {
+    font-size: 32px;
+}
+
 .content {
     display: flex;
     justify-content: center;
@@ -72,6 +101,25 @@ nav ul {
     border: 2px solid #3882F6;
 }
 
+/* Quote */
+.quotecontainer {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    padding: 100px;
+    color: #1f2937
+}
+
+.author {
+    margin-left: 55%;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+/* Call to Action */
 .calltoaction {
     background-color: #3882F6;
     margin-top: 100px;
@@ -79,25 +127,28 @@ nav ul {
     padding: 50px;
     border-radius: 10px;
 
+    color: white;
+
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;  
     align-items: center;
 }
 
-button {
-    background-color: #3882F6;
-    color: white;
+.calltoaction button {
+    border: 2px solid white;
 }
 
+.calltoaction h3 {
+    font-size: 24px;
+    margin: 0px 0px 5px 0px;
+}
+
+/* Footer */
 footer {
     padding: 50px;
-    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.information {
-    padding: 50px;
-    text-align: center;
-}
+
